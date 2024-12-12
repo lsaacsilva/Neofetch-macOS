@@ -1,36 +1,39 @@
 # Neofetch-macOS
 Simple script to install neofetch on macOS
 
-Neofetch Installation Script for macOS
+# Neofetch Installation Script for macOS
 
-This script automates the installation of Neofetch on macOS, utilizing Homebrew as the package manager. If Homebrew is not installed, it will install it for you before installing Neofetch.
-Requirements
+This script automates the installation of **Neofetch** on macOS, utilizing **Homebrew** as the package manager. If Homebrew is not installed, it will install it for you before installing Neofetch.
 
-    macOS
-    Homebrew (If not installed, the script will install it automatically)
+## Requirements
 
-Features
+- macOS
+- **Homebrew** (If not installed, the script will install it automatically)
 
-    Installs Homebrew if not already installed.
-    Installs Neofetch via Homebrew.
-    Verifies if Neofetch was installed successfully.
+## Features
 
-Installation
+- Installs **Homebrew** if not already installed.
+- Installs **Neofetch** via **Homebrew**.
+- Verifies if Neofetch was installed successfully.
 
-    Download the Script
-    First, download the script install_neofetch.sh to your macOS machine.
+## Installation
 
-    Give Execution Permissions
-    Open your terminal and navigate to the folder where the script is located. Then, make the script executable:
+1. **Download the Script**  
+   First, download the script `install_neofetch.sh` to your macOS machine.
 
-chmod +x install_neofetch.sh
+2. **Give Execution Permissions**  
+   Open your terminal and navigate to the folder where the script is located. Then, make the script executable:
 
-Run the Script
-Now, you can run the script to install Neofetch:
+   ```bash
+   chmod +x install_neofetch.sh
 
+3. **Run the Script**
+   Now, you can run the script to install Neofetch:
+   
+   ```bash
     ./install_neofetch.sh
 
-    The script will:
+    ## The script will:
         Check if Homebrew is installed. If not, it will install it.
         Install Neofetch using Homebrew.
         Check if Neofetch was successfully installed.
@@ -39,27 +42,5 @@ Usage
 
 After installation, you can simply run the following command to display system information with Neofetch:
 
+```bash
 neofetch
-
-Example output:
-
-                   _                                   
- _ __  _   _ _ __ | |_ _   _ _ __   __ _ _ __ __ _ _ __ 
-| '_ \| | | | '_ \| __| | | | '_ \ / _` | '__/ _` | '_ \
-| | | | |_| | | | | |_| |_| | | | | (_| | | | (_| | | | |
-|_| |_|\__,_|_| |_|\__|\__,_|_| |_|\__,_|_|  \__,_|_| |_|
-                                                         
-System: macOS (Version)
-Kernel: Darwin (Kernel version)
-CPU: Intel Core i7
-RAM: 16 GB
-
-Troubleshooting
-
-If you encounter issues during installation, ensure that you have an active internet connection for downloading Homebrew and Neofetch. You can also check if Homebrew is working correctly by running:
-
-brew doctor
-
-License
-
-This script is open source and licensed under the MIT License.
