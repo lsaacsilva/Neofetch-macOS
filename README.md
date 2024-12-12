@@ -33,13 +33,12 @@ This script automates the installation of **Neofetch** on macOS, utilizing **Hom
    ```bash
     ./install_neofetch.sh
 
-    ## The script will:
-        Check if Homebrew is installed. If not, it will install it.
-        Install Neofetch using Homebrew.
-        Check if Neofetch was successfully installed.
+**The script will:**
+Check if Homebrew is installed. If not, it will install it.
+Install Neofetch using Homebrew.
+Check if Neofetch was successfully installed.
 
-Usage
-
+**Usage**
 After installation, you can simply run the following command to display system information with Neofetch:
 
 ```bash
