@@ -1,6 +1,9 @@
 # Neofetch-macOS
 Simple script to install neofetch on macOS
 
+![Captura de Tela 2024-12-12 às 16 46 33](https://github.com/user-attachments/assets/3511879f-943c-4a55-ab5e-b5bfcd2927a0)
+
+
 # Neofetch Installation Script for macOS
 
 This script automates the installation of **Neofetch** on macOS, utilizing **Homebrew** as the package manager. If Homebrew is not installed, it will install it for you before installing Neofetch.
